@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Html</title>
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <h1>Tags HTML - Desafio</h1>
+    <p> HTML é uma linguagem de marcação
+        de hipertexto, e tem como principal função marcar e definir a estrutura de uma página na WEB. </p>
+    <p>Vamos ver algumas das tags mais importantes, que foram estudadas no curso de Formação HTML Web Development, e que
+        o HTML utiliza na sua estrutura.</p>
+
+    <h2> O que são tags HTML?</h2>
+    <p> As tags são usadas para informar ao navegado a estrutura do site. Ao se utilizar de tags HTML, elas serão
+        interpretados pelo navegador, e são renderizadas na tela, produzindo o conteúdo visual da página que nós vemos,
+        com cores, fonts, imagens etc ...</p>
+    <p> As tag devem estar dentro dos sinais de <a href="#chevron">chevron</a> (sinal de "maior que" e
+        "menor que")</p>
+
+    <h2>Atributos</h2>
+    <p> Os atributos são usados para personalizar as tags, modificando sua estrutura e funcionalidade. Atributos são
+        utilizados para atribuir uma classe ou id a um elemento</p>
+
+    <p>
+    <p>Conheça aqui, todas as tags que foram explicadas nas aulas:
+        <strong> <a href="#h1">&lt;h1&gt; até &lt;h6&gt;</a>,
+            <a href="#p">&lt;p&gt;</a>,
+            <a href="#mark">&lt;mark&gt;</a>,
+            <a href="#small">&lt;small&gt;</a>,
+            <a href="#i">&lt;i&gt;</a>,
+            <a href="#u">&lt;u&gt;</a>,
+            <a href="#strong">&lt;strong&gt;</a>,
+            <a href="#ol">&lt;ol&gt;</a>,
+            <a href="#ul">&lt;ul&gt;</a>,
+            <a href="#li">&lt;li&gt;</a>,
+            <a href="#a">&lt;a&gt;</a>,
+            <a href="#hr">&lt;hr&gt;</a>,
+            <a href="#sub">&lt;sub&gt;</a>,
+            <a href="#sup">&lt;sup&gt;</a>,
+            <a href="#bloquequote">&lt;bloquequote&gt;</a>,
+        </strong>;
+
+    </p>
+    <p>
+        Utilizar novas tags sugeridas: <strong>
+            <a href="#font">&lt;font&gt;</a>,
+            <a href="#del">&lt;del&gt;</a>,
+            <a href="#abbr">&lt;abbr&gt;</a></strong> (a ideia
+        é buscar estas tags na internet, entender como ela funciona e utilizar no texto).
+    </p>
+
+
+    <section id="h1">
+        <h2><strong>TAG</strong>&lt;h1&gt; até &lt;h6&gt;</h2>
+
+        <p> Os títulos e intertítulos dos conteúdos, também conhecidos como headers (H1 tag, H2 tag, H3 tag etc.), não
+            servem apenas para organizar melhor o conteúdo de uma página e facilitam a leitura. Eles também são
+            essenciais para se ter um bom SEO técnico.</p>
+
+        <h1><strong>Está é uma tag &lt;h1&gt;</strong></h1>
+        <h2><strong>Está é uma tag &lt;h2&gt;</strong></h2>
+        <h3><strong>Está é uma tag &lt;h3&gt;</strong></h3>
+        <h4><strong>Está é uma tag &lt;h4&gt;</strong></h4>
+        <h5><strong>Está é uma tag &lt;h5&gt;</strong></h5>
+        <h6><strong>Está é uma tag &lt;h6&gt;</strong></h6>
+        <hr>
+    </section>
+    <section id="p">
+        <h2>TAG &lt;p&gt;</h2>
+        <p>A tag &lt;p&gt; cria um bloco compreendido como um parágrafo pelos navegadores, idealmente para agrupar
+            textos.</p>
+        <blockquote>
+            O elemento HTML < p> (ou Elemento HTML Parágrafo) representa um parágrafo do texto. Parágrafos são,
+                geralmente, representados em mídia visual , como bloco de texto que são separados dos blocos adjacente
+                por espaços brancos verticais e/ou recuo de primeira-linha. Parágrafos são elementos em bloco .
+                <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p">Developer
+                    Mozilla</a>
+        </blockquote>
+        <hr>
+    </section>
+
+    <section id="mark">
+        <h2>TAG &lt;mark&gt;</h2>
+
+        <p> No HTML 5 o novo elemento mark tem como função destacar, realçar um texto, como por exemplo, quando fazemos
+            uma busca por uma palavra em um mecanismo de busca e este retorna os resultados encontrados destacados com
+            uma formatação diferente (highlighted text) </p>
+        <p>Seu uso mais efetivo é combinado com um estilo CSS que lhe adiciona uma cor de fundo.</p>
+        <p> <b>Sintaxe:</b> </p>
+        <code> &lt;mark&gt; Contents ... &lt;/mark&gt; </code>
+        <ol>
+            <li> O <mark>violão</mark>, <mark>violino</mark> o <mark>cavaquinho</mark>são apenas alguns dos mais
+                conhecidos instrumentos musicais de corda ...</li>
+            <li> O <mark>Trompete</mark>, <mark>Trombone</mark>, <mark>Tuba</mark>,<mark>Clarinete</mark>,
+                <mark>Flauta</mark>, <mark>Saxofone</mark>, são instrumentos de sopro ...
+            </li>
+        </ol>
+        <hr>
+    </section>
+    <section id="small">
+        <h2>TAG &lt;small&gt;</h2>
+
+        <p> O marcador &lt;small&gt; &lt;/small&gt; "Small Element" ou fonte menor é utilizado para reduzir o tamanho da
+            fonte num
+            intervalo definido de um texto.
+
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;small&gt;, Conteúdo... &lt;/small&gt; </code>
+        <p> <b>Exemplo:</b> </p>
+        <p>Esopo, ao qual se atribui a paternidade da fábula como gênero literário disse:</p>
+        <q> Ninguém é tão <b>grande</b> que não possa aprender, nem tão <small><b>pequeno</b></small> que não possa
+            ensinar. </q>
+
+        <hr>
+    </section>
+    <section id="i">
+        <h2>TAG &lt;i&gt;</h2>
+        <p> Transforma o conteúdo em itálico </p>
+        <p>Segundo especificação da tag <i> do HTML5, agora ela é utilizada para o texto de uma "voz alternativa", como
+                palavras estrangeiras transliteradas, termos técnicos e tipografias.</p>
+        <br>
+        <blockquote>
+            O **elemento HTML &lt;i&gt; **representa uma parte do texto que é destacada do restante por algum motivo,
+            por exemplo, termos técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios.
+            Normalmente, é apresentado com o uso do tipo <strong><i>"itálico"</i></strong> .
+            <p> <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/i">Developer
+                    Mozilla</a>
+            </p>
+
+        </blockquote>
+
+        <hr>
+    </section>
+    <section id="u">
+        <h2>TAG &lt;u&gt;</h2>
+        <p>O marcador &lt;u&gt; &lt;/u&gt; "<b>Underline Element</b>" ou sublinhado é utilizado para sublinhar um espaço
+            definido de um texto. Esta tag é geralmente usada para sublinhar palavras com erros ortográficos. </p>
+        <p> É importante ressaltar que a partir do <b>HTML 5.0</b> será obsoleto e redefinada, e que já está em desuso
+            desde o <b>HTML 4.01</b> . Preferencialmente deve-se usar a tag
+            <b>&lt;span&gt;</b> <b>&lt;/span&gt;</b> e atributo CSS text-decoration: underline;
+        </p>
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;u&gt;, Conteúdo... &lt;/u&gt; </code>
+        <p> <b>Exemplo:</b> </p>
+        <pre> <code class="text/css" contenteditable="true">
+
+        <b>&lt;style&gt;</b>
+            body{
+                text-align:center;
+            }
+            p{
+                font-size: 20px;
+            }
+            span{
+                text-decoration: underline
+            }
+        <b>&lt;/style&gt; </b>
+            </code>
+        </pre>
+        <hr>
+    </section>
+
+    <section id="strong">
+        <h2>TAG &lt;strong&gt;</h2>
+        <p>
+            A tag <b>&lt;strong&gt;</b> renderiza o texto contido nela com um reforço gráfico (negrito), e informa a
+            mecanismos
+            de busca e outras plataformas que aquele conteúdo tem maior significação do que os demais conteúdos
+            apresentados no documento. A tag <b>&lt;strong&gt;</b> é uma tag semântica, e atua tanto visualmente quanto
+            em nível de
+            meta-informação para outros mecanismos da web. Os resultados visuais são idênticos ao da tag
+            <b>&lt;b&gt;</b>, mas
+            esta não produz nenhuma meta-informação, ficando restrita a formatação de texto.
+        </p>
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;strong&gt;, Conteúdo... &lt;/strong&gt; </code>
+        <p> <b>Exemplo:</b> </p>
+        <p> <strong>Sou o destaque desse trecho, por isso sou muito importante, pois eu sou o &lt;strong&gt;</strong> e
+            não apenas o <b>negrito
+                &lt;b&gt</b>;
+        </p>
+        <hr>
+    </section>
+    <section id="ol">
+        <h2>TAG &lt;ol&gt;</h2>
+        <h3>Listas ordenadas ou numerada</h3>
+        <p> O marcador &lt;ol&gt; &lt;/ol&gt;"<b>Ordered List Element</b>" ou lista ordenada, por si só é um conjunto
+            vazio, define a abertura e fechamento de uma lista.
+        </p>
+        <p>Deve conter no mínimo uma tag <a href="#li">&lt;li&gt;</a>, &lt;/li&gt; dentro do conjunto.</p>
+        <p>Dentro de uma lista ordenada degraus podem ser colocados se forem necessários, os degraus podem ser uma lista
+            ordenada ou não, depende da necessidade.</p>
+        <p><b>Ordenação em numéricos arábicos:</b></p>
+        <p>A ordenação padrão é com números arábicos. Esta condição, se desejada, não precisa ser declarada. </p>
+        <hr>
+    </section>
+    <section id="ul">
+        <h2>TAG &lt;ul&gt;</h2>
+        <h3>Listas não Ordenadas</h3>
+
+        <p>As listas não numeradas são usadas para listar itens, sem se preocupar com sua sequência. Chamamos de lista
+            de marcadores apenas.</p>
+        As tags usadas para criar uma lista não ordenada são <b>&lt;ul&gt;</b> e <b>&lt;li&gt;</b>. A tag
+        <b>&lt;ul&gt;</b> é
+        usada para definir a lista e a tag <b>&lt;li&gt;</b> é usada para cada item da lista.
+        <hr>
+    </section>
+    <section id="li">
+        <h2>TAG &lt;li&gt;</h2>
+        <p>A tag <b>&lt;li&gt;</b> em HTML é usada para definir o item da lista em um documento HTML. É usado em uma
+            Lista ordenada <a href="#ol">&lt;ol&gt;</a> ou Lista não ordenada <a href="#ul">&lt;ul&gt;</a>.
+        </p>
+        <p>
+            <b>Observação:</b> a tag final pode ser omitida se o item da lista for seguido imediatamente por outro
+            elemento <b>&lt;li&gt;</b> ou se não houver mais conteúdo em seu elemento pai.
+        </p>
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;li&gt;, item  &lt;/li&gt; </code>
+
+        <hr>
+    </section>
+    <section id="a">
+        <h2>TAG &lt;a&gt;</h2>
+
+        <p>A tag <b>&lt;a&gt;</b> em HTML (conhecida como tag âncora), com o atributo <b>href</b> cria-se um
+            hiperligação nas
+            páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro
+            de cada <b>&lt;a&gt;</b> precisará indicar o destino do link.</p>
+
+        <p>A tag <b>&lt;a&gt;</b> , é responsável por vincular os demais documentos que o HTML possui, links internos e
+            externos.</p>
+
+        <h3>Atributos</h3>
+        <p>Além de <b>href</b>, a tag <b>&lt;a&gt;</b> possui alguns outros atributos, e cada um deles tem o seu papel
+            específico. Esses atributos são: <b>target</b> e <b>rel</b>.</p>
+
+        <p> O <b>href</b> (hypertext reference),referência para hipertexto, que nada mais é do que a tag onde colocamos
+            a URL do site que queremos vincular ao nosso HTML. É necessário adicionarmos a URL por completo, isso inclui
+            o protocolo https. Ao incluirmos a URL do site desejado, basta colocarmos uma palavra ou frase entre o
+            fechamento e abertura da tag <b>&lt;a&gt;</b>. Quando clicarmos nessa palavra/frase, seremos direcionados ao
+            site vinculado. É possível também utilizarmos a tag <b>&lt;a&gt;</b> apenas para voltar ao topo da nossa
+            página, para isso, inserimos uma cerquilha.</p>
+
+
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;a href="#"&gt;Topo  &lt;/a&gt; </code> <br>
+        <code>  &lt;a href="https://www.dio.me.com/"&gt;Dio.me&lt;/a&gt; </code>
+        <br>
+
+        <h3>target</h3>
+        <p>o atributo <b>target</b>, é utilizado para especificar onde iremos visualizar o link após clicarmos, seja
+            ele interno ou externo.</p>
+        <p>Para que o link seja aberto em uma nova aba:</p>
+        <code>  &lt;a href="https://www.dio.me.com/" target="_blank"&gt;Dio.me&lt;/a&gt; </code>
+        <p>Para que o link seja aberto na mesma aba, sendo esse seu comportamento padrão, basta declarar:</p>
+        <code> &lt;a href="https://www.dio.me.com/" target="_self"&gt;Dio.me&lt;/a&gt; </code>
+        <br>
+        <h3>rel</h3>
+        <p>
+            o atributo <mark><b>rel</b></mark> (relationship), relação. É muito importante que saibamos que o atributo
+            rel contém alguns valores, sendorel eles distintos uns dos outros. Iremos abordar os valores de
+            <mark><b>nofollow</b></mark>, <mark><b>noopener</b></mark> e <mark><b>noreferrer</b></mark>, que está ligado
+            diretamente com o <mark><b>noopener</b></mark>.
+        </p>
+        <code> &lt;a href="https://www.dio.me.com/" rel="nofollow"&gt;Dio.me&lt;/a&gt; </code>
+        <p>Estamos informando para o Google não dar importância para o link que estamos referenciando, ou seja, ele irá
+            ler o nosso link de âncora, apresentar ao usuário, porém, o mesmo não será ranqueado.</p>
+        <p>Sua principal finalidade é evitar com que pessoas paguem desenvolvedores de sites para aumentarem a
+            visualização dos seus links (ranqueamento). Isso é feito quando declaramos a tag de âncora sem o atributo
+            rel com o valor de nofollow.</p>
+        <hr>
+    </section>
+    <section id="hr">
+        <h2>TAG &lt;hr&gt;</h2>
+
+        <p>A tag <b>&lt;hr&gt;</b> <b>"Horizontal Rule"</b> é um elemento HTML que representa uma quebra de linha
+            temática entre elementos HTML, é exibido como uma linha horizontal separando os conteúdos de uma página web.
+        </p>
+
+        <p> <b>Sintaxe:</b> </p>
+        <code><b>&lt;hr&gt;</b> </code> <br>
+        <q><b>Atenção:</b> A tag <b>&lt;hr&gt;</b> é considerada uma tag vazia, pois não requer tag de fechamento.</q>
+        <br> <br>
+        <q><b>Importante:</b> A tag <b>&lt;hr&gt;</b> está em todas as sessões desse documento.</q>
+
+        <h2>Propriedades</h2>
+        <ul>
+            <li><b>size=</b> Medida padrão em unidade pixel que define a altura da linha. A unidade de medida "px" não
+                necessita ser inserida.</li>
+            <li><b>Align=</b> Define o alinhamento em relação à pagina. O Alignhamento pode ser à esquerda, no centro,
+                ou à direita. Sendo a alinhamento padrão, caso não seja definido, o centro</li>
+            <li><b>width=</b> Largura da linha horizontal que é determinado em porcentagem do local onde a tag
+                <b>&lt;hr&gt;</b>, está inserida ou em pixels.
+            </li>
+            <li><b>noshade:</b>Quando está propriedade está definida a linha será sombreada. Se a propriedade não for
+                definida e não houver a inclusão de cor alternativa a padrão a linha será sombreada</li>
+            <li><b>color=</b>Define a cor da linha horizontal. A cor padraão da tag é #A0A0A0. Se nenhuma propriedade
+                "color" não for definida a linha assumira essa cor.</li>
+
+        </ul>
+        <h3>Exemplos:</h3>
+
+        <p>
+            Uma tag <b>&lt;hr&gt;</b> sem nenhuma propriedade, será apresentada assim no navegador: <br>
+            <b>&lt;hr&gt;</b>
+        </p>
+        <hr>
+
+        <p>Uma tag <b>&lt;hr&gt;</b> com a propriedade "size=10",
+            será apresentada assim no navegador: <br>
+            <b>&lt;hr size=10/&gt;</b>
+        </p>
+        <hr size="10" />
+
+        <p>Uma tag <b>&lt;hr&gt;</b> com as propriedades "align="left",width="30%" e "size=5" assim aparecerá no
+            navegador: <br>
+            <b>&lt;hr align="left" width="30%" size="5"/&gt;</b>
+        </p>
+        <hr align="left" width="30%" size="5" />
+        <p>Uma tag <b>&lt;hr&gt;</b> com a propriedade "<b>noshade</b>" ativada, e as propriedades width="30%" size="5"
+            assim aparecerá no navegador:<br>
+            <b>&lt;hr width="30%" size="5" noshade /&gt;</b>
+        </p>
+        <hr width="30%" size="5" noshade />
+        <p>Uma tag <b>&lt;hr&gt;</b> com as propriedades width="30%" size="5" color="Yellow" assim aparecerá no
+            navegador: <br>
+            <b>&lt;hr width="30%" size="5" color="blue" /&gt;</b>
+        </p>
+        <hr width="30%" size="5" color="blue" />
+        <br>
+        <br>
+        <hr>
+    </section>
+    <section id="sub">
+        <h2>TAG &lt;sub&gt;</h2>
+        <p>O marcador <b>&lt;sub&gt;</b> <b>&lt;/sub&gt;</b> "<b>Subscript Element</b>" ou subscrito é utilizado para
+            escrever um texto com uma fonte menor e com o alinhamento abaixo da linha normal.</P>
+        <p>Texto subscrito pode ser utilizado para as fórmulas químicas, tal como <b>H</b><sub>2</sub><b>O</b></p>
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;sub&gt;...&lt;/sub&gt; </code>
+        <h3>Exemplo:</h3>
+        <p>O <b>benzeno</b> é um <b>hidrocarboneto aromático</b> cuja fórmula química é:
+            <br />C<sub>6</sub>H<sub>6</sub> - Seis átomos de <b>carbono</b> e seis de <b>hidrogênio</b>.
+        </p>
+        <hr>
+    </section>
+    <section id="sup">
+        <h2>TAG &lt;sup&gt;</h2>
+
+        <p> O &lt;sup&gt;tag define texto sobrescrito. texto sobrescrito parece metade de um caráter acima da linha
+            normal, e às vezes é processado em uma fonte menor. Superscript texto pode ser utilizado para notas de
+            rodapé, como WWW <sup>[1]</sup> .
+        <h3>Dica:</h3>
+        Use o &lt;sup&gt; tag para definir o texto subscrito.
+        </p>
+
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;sup&gt;*&lt;/sup&gt; </code>
+        <hr>
+    </section>
+
+    <section id="blockquote">
+        <h2>TAG &lt;blockquote&gt;</h2>
+
+        <p> A tag &lt;blockquote&gt; é usada para exibir as citações longas (seção que é citado de outra fonte).
+        </p>
+        <p>
+            Os navegadores normalmente renderizam o texto encontrado na tab &lt;blockquote&gt; como um texto recuado.
+        </p>
+        <f3>Atributo</f3>
+        <p> Contém um único atributo <b>cite</b> que é usado para especificar a fonte de citação</p>
+
+        <h3>Dicas</h3>
+        <p>Use &lt;q&gt; para <b>in-line cotações (curtas)</b>.</p>
+    </section>
+
+
+
+    <hr>
+    <section id="chevron">
+        <h2>Chevron (tipografia)</h2>
+        <p>
+        <Blockquote><strong>Chevron</strong> é um sinal de pontuação duplo que se coloca em um fragmento de texto,
+            devendo ser traduzido como "divisa". Matemáticamente também significa "menor que" e "maior que".
+        </Blockquote>
+        </p>
+        <p>
+        <Blockquote> Na Informática, em XML e HTML os chevrons são utilizados para a concepção de tags para aplicar
+            formatação de conteúdo especifico que circunda.</Blockquote>
+        </p>
+
+        <p> Fonte: <a href="https://pt.wikipedia.org/wiki/Chevron_(tipografia)" target="_blank">Wikepedia</a>
+        </p>
+        <hr>
+    </section>
+
+
+    <section id="font">
+        <h2>TAG &lt;font&gt;</h2>
+        <h3>O &lt;font&gt; Tag. Não é supportado no HTML5. Use CSS em vez disso</h3>
+        <hr>
+    </section>
+
+    <section id="del">
+        <h2>TAG &lt;del&gt;</h2>
+
+        <p>
+            A tag &lt;del&gt; define o texto que foi excluído de um documento. Os navegadores geralmente riscam uma
+            linha através do texto excluído.
+        </p>
+        <p>
+            Os navegadores tradicionalmente renderizam o texto encontrado na tag <b>&lt;del&gt;</b>como texto tachado.
+            Além disso Você pode usar a tag complementar chamada tag <b> &lt;ins&gt;</b>para marcar o novo texto que foi
+            inserido em um documento.
+        </p>
+        <hr>
+    </section>
+
+    <section id="abbr">
+        <h2>TAG &lt;abbr&gt;</h2>
+
+        <p>
+            A tag &lt;abbr&gt; &lt;/abbr&gt; "<b>Abbreviation Element</b>" abreviatura, define uma abreviação ou
+            acrônico é uma tag utilizada para se inserir uma sigla em uma página HTML.
+        </p>
+        <p>
+            É útil para fornecer informações aos navegadores, leitores de telas, buscadores, sites de tradução como
+            também verificadores de ortografia.
+        </p>
+        <p>
+            O marcador &lt;abbr&gt; &lt;/abbr&gt; pode conter a característica "<b>title=</b>", opcional, onde se coloca
+            o nome completo do que aquela sigla representa. Este atributo fornece principalmente informações aos
+            buscadores.<br>
+            Ex: &lt;abbr title="Cascading Style Sheets"&gt;CSS&lt;/abbr&gt; <br>
+            &lt;abbr title="Linguagem de marcação do Hypertext"&gt;HTML&lt;/abbr&gt;
+        </p>
+        <p> <b>Sintaxe:</b> </p>
+        <code>  &lt;abbr&gt;...&lt;/abbr&gt; </code>
+        <h3>Dica:</h3>
+        <p>Use o atributo global para mostrar a descrição da abreviatura/acrônimo ao passar o mouse sobre o elemento</p>
+        <h3>Exemplo:</h3>
+        <p>Autoridade monétaria do brasil, <abbr title="Banco Central do Brasil"><mark>BCB</mark></abbr> </p>
+        <p> Organização Mundial da Saúde <abbr title="World Health Organization"><mark>WHO<mark></mark></abbr> Fundada
+            em 1948</p>
+        <p>Cascading Style Sheet,<abbr title="Cascading Style Sheet"><mark>CSS</mark></abbr> </p>
+        <p>Linguagem de marcação de Hipertexto,<abbr
+                title="Linguagem de Marcação de Hipertexto"><mark>HTML</mark></abbr> </p>
+        <hr>
+    </section>
+
+
+</body>
+
+</html>
